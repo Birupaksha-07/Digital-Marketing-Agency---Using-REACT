@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
+import Carousel from '../components/Carousel';
 
 function Home() {
   return (
@@ -12,100 +13,7 @@ function Home() {
       {/* Header  */}
       <Header/>
       
-
-        {/* <!-- Hero Section With Slider --> */}
-
-        <div className="slider-container">
-
-          <div className="container-fluid slide slide-1">
-            <div className="row hero-section-container">
-              <div className="col">
-                <div className="hero-banner-text">
-                  <h6>Digital Marketting Agency</h6>
-                  <h1>We are available for marketing</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                    doloremque vero ea quibusdam temporibus Lorem
-                  </p>
-                  <div><a href="*" className="hero-btn">Get Started</a></div>
-                </div>
-              </div>
-              <div className="col">
-                <div className="hero-banner-img">
-                  <img src="./assets/images/hero-banner.png" alt="Hero Banner" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container-fluid slide">
-            <div className="row hero-section-container">
-              <div className="col">
-                <div className="hero-banner-text">
-                  <h6>Digital Marketting Agency</h6>
-                  <h1>We are available for marketing</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                    doloremque vero ea quibusdam temporibus Lorem
-                  </p>
-                  <div><a href="*" className="hero-btn">Get Started</a></div>
-                </div>
-              </div>
-              <div className="col">
-                <div className="hero-banner-img">
-                  <img src="./assets/images/Hero-image2.jpg" alt="Hero Banner" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container-fluid slide">
-            <div className="row hero-section-container">
-              <div className="col">
-                <div className="hero-banner-text">
-                  <h6>Digital Marketting Agency</h6>
-                  <h1>We are available for marketing</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                    doloremque vero ea quibusdam temporibus Lorem
-                  </p>
-                  <div><a href="*" className="hero-btn">Get Started</a></div>
-                </div>
-              </div>
-              <div className="col">
-                <div className="hero-banner-img">
-                  <img src="./assets/images/Hero image3.png" alt="Hero Banner" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="container-fluid slide">
-            <div className="row hero-section-container">
-              <div className="col">
-                <div className="hero-banner-text">
-                  <h6>Digital Marketting Agency</h6>
-                  <h1>We are available for marketing</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                    doloremque vero ea quibusdam temporibus Lorem
-                  </p>
-                  <div><a href="*" className="hero-btn">Get Started</a></div>
-                </div>
-              </div>
-              <div className="col">
-                <div className="hero-banner-img">
-                  <img src="./assets/images/Hero_image_4.png" alt="Hero Banner" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="arrow left" onclick="controller(-1)"><ion-icon name="chevron-back-outline"></ion-icon></div>
-          <div className="arrow right" onclick="controller(+1)"><ion-icon name="chevron-forward-outline"></ion-icon></div>
-        </div>
-
-
+      <Carousel/>
         {/* <!-- Services  --> */}
 
         <div className="container-fluid services-container">
