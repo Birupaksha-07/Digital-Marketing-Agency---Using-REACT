@@ -24,7 +24,7 @@ function Carousel() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard,Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img className="swiperImg" src="./assets/images/carousel image1.jpg" alt="" />
 
           <div className="hero-banner-text">
@@ -47,7 +47,7 @@ function Carousel() {
               doloremque vero ea quibusdam temporibus Lorem
             </p>
             <div><a href="*" className="hero-btn">Get Started</a></div>
-          </div>
+          </div> */}
         </SwiperSlide>
 
         <SwiperSlide><img className="swiperImg" src="./assets/images/carousel image 3.jpg" alt="" />
